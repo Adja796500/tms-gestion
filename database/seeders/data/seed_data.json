@@ -1,0 +1,917 @@
+{
+  "articles": [
+    {
+      "Code": "C001",
+      "Désignation": "BIC",
+      "Catégorie": null,
+      "Unité": null,
+      "Prix d'achat (FCFA)": null,
+      "Prix de vente (FCFA)": 2000,
+      "Stock initial": 150,
+      "Stock minimum": 5,
+      "Achats cumulés": 0,
+      "Ventes cumulées": 1719,
+      "Stock disponible": -1569,
+      "Alerte": "⚠ STOCK BAS"
+    },
+    {
+      "Code": "C002",
+      "Désignation": "CAHIER",
+      "Catégorie": null,
+      "Unité": null,
+      "Prix d'achat (FCFA)": null,
+      "Prix de vente (FCFA)": 3000,
+      "Stock initial": 16,
+      "Stock minimum": 5,
+      "Achats cumulés": 65,
+      "Ventes cumulées": 51,
+      "Stock disponible": 30,
+      "Alerte": "OK"
+    }
+  ],
+  "clients": [
+    {
+      "Nom / Raison sociale": "OUEDRAOGO Robert",
+      "Téléphone": 60456884,
+      "Email": "rbrtouedraogo@gmail.com",
+      "Adresse": "Burkina Faso — Ouagadougou",
+      "Total facturé (FCFA)": 0
+    },
+    {
+      "Nom / Raison sociale": "KONATE",
+      "Téléphone": 7003125,
+      "Email": null,
+      "Adresse": "OUAGA",
+      "Total facturé (FCFA)": 0
+    }
+  ],
+  "fournisseurs": [
+    {
+      "Nom / Raison sociale": "YOUGMA C Gisgele",
+      "Téléphone": 65604197,
+      "Email": null,
+      "Adresse": "Ouaga — Karpala",
+      "Total acheté (FCFA)": 0
+    },
+    {
+      "Nom / Raison sociale": "YOUGMA C Gisele",
+      "Téléphone": 65604197,
+      "Email": null,
+      "Adresse": "Ouaga — Karpala",
+      "Total acheté (FCFA)": 0
+    },
+    {
+      "Nom / Raison sociale": "NIKIEMA Isabelle",
+      "Téléphone": 65879002,
+      "Email": null,
+      "Adresse": "OUAGADOUGOU — Karpala à côté du Lycée Somité",
+      "Total acheté (FCFA)": 0
+    }
+  ],
+  "utilisateurs": [
+    {
+      "Nom d'utilisateur": "admin",
+      "Mot de passe": "Admin2026!",
+      "Profil": "Administrateur",
+      "Actif (Oui/Non)": "Oui",
+      "Dernière connexion (auto)": "2026-07-25"
+    },
+    {
+      "Nom d'utilisateur": "comptable",
+      "Mot de passe": "Compta2026!",
+      "Profil": "Comptable",
+      "Actif (Oui/Non)": "Oui",
+      "Dernière connexion (auto)": "2026-07-11"
+    },
+    {
+      "Nom d'utilisateur": "caissier",
+      "Mot de passe": "Caisse2026!",
+      "Profil": "Caissier",
+      "Actif (Oui/Non)": "Oui",
+      "Dernière connexion (auto)": null
+    },
+    {
+      "Nom d'utilisateur": "magasinier",
+      "Mot de passe": "Stock2026!",
+      "Profil": "Magasinier",
+      "Actif (Oui/Non)": "Oui",
+      "Dernière connexion (auto)": null
+    },
+    {
+      "Nom d'utilisateur": "commercial",
+      "Mot de passe": "Vente2026!",
+      "Profil": "Commercial",
+      "Actif (Oui/Non)": "Oui",
+      "Dernière connexion (auto)": null
+    },
+    {
+      "Nom d'utilisateur": "directeur",
+      "Mot de passe": "Direction2026!",
+      "Profil": "Directeur",
+      "Actif (Oui/Non)": "Oui",
+      "Dernière connexion (auto)": null
+    },
+    {
+      "Nom d'utilisateur": "consultation",
+      "Mot de passe": "Lecture2026!",
+      "Profil": "Consultation",
+      "Actif (Oui/Non)": "Oui",
+      "Dernière connexion (auto)": "2026-07-07"
+    },
+    {
+      "Nom d'utilisateur": "⚠ Mots de passe stockés en clair (limite d'Excel, sans base de données externe). Ne réutilisez pas un mot de passe personnel sensible ici.",
+      "Mot de passe": null,
+      "Profil": null,
+      "Actif (Oui/Non)": null,
+      "Dernière connexion (auto)": null
+    }
+  ],
+  "achats": [
+    {
+      "Date": "2026-07-10",
+      "Code Article": "C002",
+      "Désignation (auto)": "CAHIER",
+      "Fournisseur": "YOUGMA C Gisgele",
+      "Quantité": 60,
+      "Prix d'achat unitaire (FCFA)": 2500,
+      "Total (FCFA)": 150000,
+      "N° (auto)": "ACH-2026-000001",
+      "Mode de règlement": "Comptant",
+      "Montant réglé (auto)": 150000,
+      "Solde restant (auto)": 0,
+      "Statut (auto)": "Payé (comptant)",
+      "Mode de paiement (si comptant)": null,
+      "Compte (auto)": null,
+      "Flag impayé": 0,
+      "Cumul": 0
+    },
+    {
+      "Date": "2026-07-11",
+      "Code Article": "C002",
+      "Désignation (auto)": "CAHIER",
+      "Fournisseur": null,
+      "Quantité": 5,
+      "Prix d'achat unitaire (FCFA)": 1500,
+      "Total (FCFA)": 7500,
+      "N° (auto)": "ACH-2026-000002",
+      "Mode de règlement": "Comptant",
+      "Montant réglé (auto)": 7500,
+      "Solde restant (auto)": 0,
+      "Statut (auto)": "Payé (comptant)",
+      "Mode de paiement (si comptant)": null,
+      "Compte (auto)": null,
+      "Flag impayé": 0,
+      "Cumul": 0
+    }
+  ],
+  "ventes": [
+    {
+      "Date": "2026-07-11",
+      "N° Document": null,
+      "Client": "KONATE",
+      "Code Article": "C001",
+      "Désignation (auto)": "BIC",
+      "Quantité": 1,
+      "Prix de vente unitaire (FCFA)": 2000,
+      "Total (FCFA)": 2000,
+      "Colonne1": null
+    },
+    {
+      "Date": "2026-07-11",
+      "N° Document": null,
+      "Client": "KONATE",
+      "Code Article": "C001",
+      "Désignation (auto)": "BIC",
+      "Quantité": 286,
+      "Prix de vente unitaire (FCFA)": 2000,
+      "Total (FCFA)": 572000,
+      "Colonne1": null
+    },
+    {
+      "Date": "2026-07-11",
+      "N° Document": null,
+      "Client": "KONATE",
+      "Code Article": "C001",
+      "Désignation (auto)": "BIC",
+      "Quantité": 286,
+      "Prix de vente unitaire (FCFA)": 2000,
+      "Total (FCFA)": 572000,
+      "Colonne1": null
+    },
+    {
+      "Date": "2026-07-11",
+      "N° Document": null,
+      "Client": "KONATE",
+      "Code Article": "C002",
+      "Désignation (auto)": "CAHIER",
+      "Quantité": 5,
+      "Prix de vente unitaire (FCFA)": 3000,
+      "Total (FCFA)": 15000,
+      "Colonne1": null
+    },
+    {
+      "Date": "2026-07-11",
+      "N° Document": null,
+      "Client": "KONATE",
+      "Code Article": "C002",
+      "Désignation (auto)": "CAHIER",
+      "Quantité": 5,
+      "Prix de vente unitaire (FCFA)": 3000,
+      "Total (FCFA)": 15000,
+      "Colonne1": null
+    },
+    {
+      "Date": "2026-07-11",
+      "N° Document": null,
+      "Client": "KONATE",
+      "Code Article": "C002",
+      "Désignation (auto)": "CAHIER",
+      "Quantité": 2,
+      "Prix de vente unitaire (FCFA)": 3000,
+      "Total (FCFA)": 6000,
+      "Colonne1": null
+    },
+    {
+      "Date": "2026-07-11",
+      "N° Document": null,
+      "Client": "KONATE",
+      "Code Article": "C002",
+      "Désignation (auto)": "CAHIER",
+      "Quantité": 1,
+      "Prix de vente unitaire (FCFA)": 3000,
+      "Total (FCFA)": 3000,
+      "Colonne1": null
+    },
+    {
+      "Date": "2026-07-11",
+      "N° Document": null,
+      "Client": "KONATE",
+      "Code Article": "C002",
+      "Désignation (auto)": "CAHIER",
+      "Quantité": 2,
+      "Prix de vente unitaire (FCFA)": 3000,
+      "Total (FCFA)": 6000,
+      "Colonne1": null
+    },
+    {
+      "Date": "2026-07-11",
+      "N° Document": null,
+      "Client": "KONATE",
+      "Code Article": "C002",
+      "Désignation (auto)": "CAHIER",
+      "Quantité": 2,
+      "Prix de vente unitaire (FCFA)": 3000,
+      "Total (FCFA)": 6000,
+      "Colonne1": null
+    },
+    {
+      "Date": "2026-07-11",
+      "N° Document": null,
+      "Client": "KONATE",
+      "Code Article": "C002",
+      "Désignation (auto)": "CAHIER",
+      "Quantité": 2,
+      "Prix de vente unitaire (FCFA)": 3000,
+      "Total (FCFA)": 6000,
+      "Colonne1": null
+    },
+    {
+      "Date": "2026-07-11",
+      "N° Document": null,
+      "Client": "OUEDRAOGO Robert",
+      "Code Article": "C002",
+      "Désignation (auto)": "CAHIER",
+      "Quantité": 2,
+      "Prix de vente unitaire (FCFA)": 3000,
+      "Total (FCFA)": 6000,
+      "Colonne1": null
+    },
+    {
+      "Date": "2026-07-11",
+      "N° Document": null,
+      "Client": "OUEDRAOGO Robert",
+      "Code Article": "C002",
+      "Désignation (auto)": "CAHIER",
+      "Quantité": 1,
+      "Prix de vente unitaire (FCFA)": 3000,
+      "Total (FCFA)": 3000,
+      "Colonne1": null
+    },
+    {
+      "Date": "2026-07-11",
+      "N° Document": null,
+      "Client": "KONATE",
+      "Code Article": "C002",
+      "Désignation (auto)": "CAHIER",
+      "Quantité": 1,
+      "Prix de vente unitaire (FCFA)": 3000,
+      "Total (FCFA)": 3000,
+      "Colonne1": null
+    },
+    {
+      "Date": "2026-07-11",
+      "N° Document": null,
+      "Client": "NIKIEMA Isabelle",
+      "Code Article": "C002",
+      "Désignation (auto)": "CAHIER",
+      "Quantité": 6,
+      "Prix de vente unitaire (FCFA)": 3000,
+      "Total (FCFA)": 18000,
+      "Colonne1": null
+    },
+    {
+      "Date": "2026-07-11",
+      "N° Document": null,
+      "Client": "OUEDRAOGO Robert",
+      "Code Article": "C002",
+      "Désignation (auto)": "CAHIER",
+      "Quantité": 3,
+      "Prix de vente unitaire (FCFA)": 3000,
+      "Total (FCFA)": 9000,
+      "Colonne1": null
+    },
+    {
+      "Date": "2026-07-12",
+      "N° Document": null,
+      "Client": "mir",
+      "Code Article": "C002",
+      "Désignation (auto)": "CAHIER",
+      "Quantité": 10,
+      "Prix de vente unitaire (FCFA)": 3000,
+      "Total (FCFA)": 30000,
+      "Colonne1": null
+    },
+    {
+      "Date": "2026-07-12",
+      "N° Document": null,
+      "Client": "OUEDRAOGO Robert",
+      "Code Article": "C002",
+      "Désignation (auto)": "CAHIER",
+      "Quantité": 1,
+      "Prix de vente unitaire (FCFA)": 3000,
+      "Total (FCFA)": 3000,
+      "Colonne1": "V20260712180655"
+    },
+    {
+      "Date": "2026-07-12",
+      "N° Document": null,
+      "Client": "KONATE",
+      "Code Article": "C002",
+      "Désignation (auto)": "CAHIER",
+      "Quantité": 2,
+      "Prix de vente unitaire (FCFA)": 3000,
+      "Total (FCFA)": 6000,
+      "Colonne1": "V20260712180835"
+    },
+    {
+      "Date": "2026-07-13",
+      "N° Document": null,
+      "Client": "OUEDRAOGO Robert",
+      "Code Article": "C002",
+      "Désignation (auto)": "CAHIER",
+      "Quantité": 5,
+      "Prix de vente unitaire (FCFA)": 3000,
+      "Total (FCFA)": 15000,
+      "Colonne1": "V20260713124134"
+    },
+    {
+      "Date": "2026-07-13",
+      "N° Document": null,
+      "Client": "KONATE",
+      "Code Article": "C002",
+      "Désignation (auto)": "CAHIER",
+      "Quantité": 1,
+      "Prix de vente unitaire (FCFA)": 3000,
+      "Total (FCFA)": 3000,
+      "Colonne1": "V20260713124318"
+    },
+    {
+      "Date": "2026-07-09",
+      "N° Document": null,
+      "Client": "OUEDRAOGO Robert",
+      "Code Article": "C001",
+      "Désignation (auto)": null,
+      "Quantité": 1,
+      "Prix de vente unitaire (FCFA)": null,
+      "Total (FCFA)": null,
+      "Colonne1": null
+    },
+    {
+      "Date": "2026-07-09",
+      "N° Document": null,
+      "Client": "OUEDRAOGO Robert",
+      "Code Article": "C001",
+      "Désignation (auto)": null,
+      "Quantité": 286,
+      "Prix de vente unitaire (FCFA)": null,
+      "Total (FCFA)": null,
+      "Colonne1": null
+    },
+    {
+      "Date": "2026-07-09",
+      "N° Document": null,
+      "Client": "OUEDRAOGO Robert",
+      "Code Article": "C001",
+      "Désignation (auto)": null,
+      "Quantité": 286,
+      "Prix de vente unitaire (FCFA)": null,
+      "Total (FCFA)": null,
+      "Colonne1": null
+    },
+    {
+      "Date": "2026-07-09",
+      "N° Document": null,
+      "Client": "OUEDRAOGO Robert",
+      "Code Article": "C001",
+      "Désignation (auto)": null,
+      "Quantité": 1,
+      "Prix de vente unitaire (FCFA)": null,
+      "Total (FCFA)": null,
+      "Colonne1": null
+    },
+    {
+      "Date": "2026-07-09",
+      "N° Document": null,
+      "Client": "OUEDRAOGO Robert",
+      "Code Article": "C001",
+      "Désignation (auto)": null,
+      "Quantité": 286,
+      "Prix de vente unitaire (FCFA)": null,
+      "Total (FCFA)": null,
+      "Colonne1": null
+    },
+    {
+      "Date": "2026-07-09",
+      "N° Document": null,
+      "Client": "OUEDRAOGO Robert",
+      "Code Article": "C001",
+      "Désignation (auto)": null,
+      "Quantité": 286,
+      "Prix de vente unitaire (FCFA)": null,
+      "Total (FCFA)": null,
+      "Colonne1": null
+    },
+    {
+      "Date": "2026-07-10",
+      "N° Document": null,
+      "Client": null,
+      "Code Article": null,
+      "Désignation (auto)": null,
+      "Quantité": null,
+      "Prix de vente unitaire (FCFA)": null,
+      "Total (FCFA)": null,
+      "Colonne1": null
+    },
+    {
+      "Date": "2026-07-11",
+      "N° Document": null,
+      "Client": "OUEDRAOGO Robert",
+      "Code Article": "C001",
+      "Désignation (auto)": null,
+      "Quantité": 1,
+      "Prix de vente unitaire (FCFA)": null,
+      "Total (FCFA)": null,
+      "Colonne1": null
+    },
+    {
+      "Date": "2026-07-11",
+      "N° Document": null,
+      "Client": "OUEDRAOGO Robert",
+      "Code Article": "C001",
+      "Désignation (auto)": null,
+      "Quantité": 286,
+      "Prix de vente unitaire (FCFA)": null,
+      "Total (FCFA)": null,
+      "Colonne1": null
+    },
+    {
+      "Date": "2026-07-11",
+      "N° Document": null,
+      "Client": "OUEDRAOGO Robert",
+      "Code Article": "C001",
+      "Désignation (auto)": null,
+      "Quantité": 286,
+      "Prix de vente unitaire (FCFA)": null,
+      "Total (FCFA)": null,
+      "Colonne1": null
+    },
+    {
+      "Date": "2026-07-11",
+      "N° Document": null,
+      "Client": "OUEDRAOGO Robert",
+      "Code Article": "C002",
+      "Désignation (auto)": null,
+      "Quantité": 5,
+      "Prix de vente unitaire (FCFA)": null,
+      "Total (FCFA)": null,
+      "Colonne1": null
+    },
+    {
+      "Date": "2026-07-11",
+      "N° Document": null,
+      "Client": "OUEDRAOGO Robert",
+      "Code Article": "C002",
+      "Désignation (auto)": null,
+      "Quantité": 5,
+      "Prix de vente unitaire (FCFA)": null,
+      "Total (FCFA)": null,
+      "Colonne1": null
+    },
+    {
+      "Date": "2026-07-11",
+      "N° Document": null,
+      "Client": "OUEDRAOGO Robert",
+      "Code Article": "C002",
+      "Désignation (auto)": null,
+      "Quantité": 3,
+      "Prix de vente unitaire (FCFA)": null,
+      "Total (FCFA)": null,
+      "Colonne1": null
+    },
+    {
+      "Date": "2026-07-11",
+      "N° Document": null,
+      "Client": "OUEDRAOGO Robert",
+      "Code Article": "C001",
+      "Désignation (auto)": null,
+      "Quantité": 1,
+      "Prix de vente unitaire (FCFA)": null,
+      "Total (FCFA)": null,
+      "Colonne1": null
+    },
+    {
+      "Date": "2026-07-11",
+      "N° Document": null,
+      "Client": "OUEDRAOGO Robert",
+      "Code Article": "C001",
+      "Désignation (auto)": null,
+      "Quantité": 286,
+      "Prix de vente unitaire (FCFA)": null,
+      "Total (FCFA)": null,
+      "Colonne1": null
+    },
+    {
+      "Date": "2026-07-11",
+      "N° Document": null,
+      "Client": "OUEDRAOGO Robert",
+      "Code Article": "C001",
+      "Désignation (auto)": null,
+      "Quantité": 286,
+      "Prix de vente unitaire (FCFA)": null,
+      "Total (FCFA)": null,
+      "Colonne1": null
+    },
+    {
+      "Date": "2026-07-11",
+      "N° Document": null,
+      "Client": "OUEDRAOGO Robert",
+      "Code Article": "C002",
+      "Désignation (auto)": null,
+      "Quantité": 5,
+      "Prix de vente unitaire (FCFA)": null,
+      "Total (FCFA)": null,
+      "Colonne1": null
+    },
+    {
+      "Date": "2026-07-11",
+      "N° Document": null,
+      "Client": "OUEDRAOGO Robert",
+      "Code Article": "C002",
+      "Désignation (auto)": null,
+      "Quantité": 5,
+      "Prix de vente unitaire (FCFA)": null,
+      "Total (FCFA)": null,
+      "Colonne1": null
+    },
+    {
+      "Date": "2026-07-11",
+      "N° Document": null,
+      "Client": "OUEDRAOGO Robert",
+      "Code Article": "C002",
+      "Désignation (auto)": null,
+      "Quantité": 3,
+      "Prix de vente unitaire (FCFA)": null,
+      "Total (FCFA)": null,
+      "Colonne1": null
+    },
+    {
+      "Date": "2026-07-11",
+      "N° Document": null,
+      "Client": "OUEDRAOGO Robert",
+      "Code Article": "C002",
+      "Désignation (auto)": null,
+      "Quantité": 1,
+      "Prix de vente unitaire (FCFA)": null,
+      "Total (FCFA)": null,
+      "Colonne1": null
+    },
+    {
+      "Date": "2026-07-11",
+      "N° Document": null,
+      "Client": "OUEDRAOGO Robert",
+      "Code Article": "C002",
+      "Désignation (auto)": null,
+      "Quantité": 2,
+      "Prix de vente unitaire (FCFA)": null,
+      "Total (FCFA)": null,
+      "Colonne1": null
+    }
+  ],
+  "paiements_clients": [],
+  "reglements_fournisseurs": [],
+  "droits_acces": [
+    {
+      "Feuille": "ACCUEIL",
+      "Administrateur": "Oui",
+      "Directeur": "Oui",
+      "Comptable": "Oui",
+      "Caissier": "Oui",
+      "Magasinier": "Oui",
+      "Commercial": "Oui",
+      "Consultation": "Oui"
+    },
+    {
+      "Feuille": "GUIDE",
+      "Administrateur": "Oui",
+      "Directeur": "Oui",
+      "Comptable": "Oui",
+      "Caissier": "Oui",
+      "Magasinier": "Oui",
+      "Commercial": "Oui",
+      "Consultation": "Oui"
+    },
+    {
+      "Feuille": "PARAMETRES",
+      "Administrateur": "Oui",
+      "Directeur": "Oui",
+      "Comptable": "Non",
+      "Caissier": "Non",
+      "Magasinier": "Non",
+      "Commercial": "Non",
+      "Consultation": "Oui"
+    },
+    {
+      "Feuille": "JOURNAL",
+      "Administrateur": "Oui",
+      "Directeur": "Oui",
+      "Comptable": "Oui",
+      "Caissier": "Oui",
+      "Magasinier": "Non",
+      "Commercial": "Non",
+      "Consultation": "Oui"
+    },
+    {
+      "Feuille": "ACQUISITIONS_PRETS",
+      "Administrateur": "Oui",
+      "Directeur": "Oui",
+      "Comptable": "Non",
+      "Caissier": "Non",
+      "Magasinier": "Non",
+      "Commercial": "Non",
+      "Consultation": "Oui"
+    },
+    {
+      "Feuille": "RAPPORT MENSUEL",
+      "Administrateur": "Oui",
+      "Directeur": "Oui",
+      "Comptable": "Oui",
+      "Caissier": "Non",
+      "Magasinier": "Non",
+      "Commercial": "Non",
+      "Consultation": "Oui"
+    },
+    {
+      "Feuille": "STATISTIQUES",
+      "Administrateur": "Oui",
+      "Directeur": "Oui",
+      "Comptable": "Oui",
+      "Caissier": "Non",
+      "Magasinier": "Non",
+      "Commercial": "Non",
+      "Consultation": "Oui"
+    },
+    {
+      "Feuille": "TRESORERIE",
+      "Administrateur": "Oui",
+      "Directeur": "Oui",
+      "Comptable": "Oui",
+      "Caissier": "Non",
+      "Magasinier": "Non",
+      "Commercial": "Non",
+      "Consultation": "Oui"
+    },
+    {
+      "Feuille": "ARTICLES",
+      "Administrateur": "Oui",
+      "Directeur": "Oui",
+      "Comptable": "Non",
+      "Caissier": "Non",
+      "Magasinier": "Oui",
+      "Commercial": "Non",
+      "Consultation": "Oui"
+    },
+    {
+      "Feuille": "ACHATS_STOCK",
+      "Administrateur": "Oui",
+      "Directeur": "Oui",
+      "Comptable": "Non",
+      "Caissier": "Non",
+      "Magasinier": "Oui",
+      "Commercial": "Non",
+      "Consultation": "Oui"
+    },
+    {
+      "Feuille": "VENTES",
+      "Administrateur": "Oui",
+      "Directeur": "Oui",
+      "Comptable": "Non",
+      "Caissier": "Non",
+      "Magasinier": "Oui",
+      "Commercial": "Non",
+      "Consultation": "Oui"
+    },
+    {
+      "Feuille": "VENTE_RAPIDE",
+      "Administrateur": "Oui",
+      "Directeur": "Oui",
+      "Comptable": "Non",
+      "Caissier": "Oui",
+      "Magasinier": "Oui",
+      "Commercial": "Non",
+      "Consultation": "Oui"
+    },
+    {
+      "Feuille": "PAIEMENTS_CLIENTS",
+      "Administrateur": "Oui",
+      "Directeur": "Oui",
+      "Comptable": "Oui",
+      "Caissier": "Oui",
+      "Magasinier": "Non",
+      "Commercial": "Non",
+      "Consultation": "Oui"
+    },
+    {
+      "Feuille": "REGLEMENTS_FOURNISSEURS",
+      "Administrateur": "Oui",
+      "Directeur": "Oui",
+      "Comptable": "Oui",
+      "Caissier": "Non",
+      "Magasinier": "Non",
+      "Commercial": "Non",
+      "Consultation": "Oui"
+    },
+    {
+      "Feuille": "CREANCES_CLIENTS",
+      "Administrateur": "Oui",
+      "Directeur": "Oui",
+      "Comptable": "Oui",
+      "Caissier": "Non",
+      "Magasinier": "Non",
+      "Commercial": "Non",
+      "Consultation": "Oui"
+    },
+    {
+      "Feuille": "DETTES_FOURNISSEURS",
+      "Administrateur": "Oui",
+      "Directeur": "Oui",
+      "Comptable": "Oui",
+      "Caissier": "Non",
+      "Magasinier": "Non",
+      "Commercial": "Non",
+      "Consultation": "Oui"
+    },
+    {
+      "Feuille": "CLIENTS",
+      "Administrateur": "Oui",
+      "Directeur": "Oui",
+      "Comptable": "Oui",
+      "Caissier": "Oui",
+      "Magasinier": "Non",
+      "Commercial": "Oui",
+      "Consultation": "Oui"
+    },
+    {
+      "Feuille": "FOURNISSEURS",
+      "Administrateur": "Oui",
+      "Directeur": "Oui",
+      "Comptable": "Oui",
+      "Caissier": "Non",
+      "Magasinier": "Oui",
+      "Commercial": "Non",
+      "Consultation": "Oui"
+    },
+    {
+      "Feuille": "COMMANDES",
+      "Administrateur": "Oui",
+      "Directeur": "Oui",
+      "Comptable": "Non",
+      "Caissier": "Non",
+      "Magasinier": "Non",
+      "Commercial": "Oui",
+      "Consultation": "Oui"
+    },
+    {
+      "Feuille": "ARCHIVES",
+      "Administrateur": "Oui",
+      "Directeur": "Oui",
+      "Comptable": "Non",
+      "Caissier": "Non",
+      "Magasinier": "Non",
+      "Commercial": "Non",
+      "Consultation": "Oui"
+    },
+    {
+      "Feuille": "FACTURE_PROFORMA",
+      "Administrateur": "Oui",
+      "Directeur": "Oui",
+      "Comptable": "Oui",
+      "Caissier": "Non",
+      "Magasinier": "Non",
+      "Commercial": "Oui",
+      "Consultation": "Oui"
+    },
+    {
+      "Feuille": "FACTURE_DEFINITIVE",
+      "Administrateur": "Oui",
+      "Directeur": "Oui",
+      "Comptable": "Oui",
+      "Caissier": "Oui",
+      "Magasinier": "Non",
+      "Commercial": "Non",
+      "Consultation": "Oui"
+    },
+    {
+      "Feuille": "RECU",
+      "Administrateur": "Oui",
+      "Directeur": "Oui",
+      "Comptable": "Oui",
+      "Caissier": "Oui",
+      "Magasinier": "Non",
+      "Commercial": "Non",
+      "Consultation": "Oui"
+    },
+    {
+      "Feuille": "BORDEREAU_LIVRAISON",
+      "Administrateur": "Oui",
+      "Directeur": "Oui",
+      "Comptable": "Oui",
+      "Caissier": "Non",
+      "Magasinier": "Non",
+      "Commercial": "Oui",
+      "Consultation": "Oui"
+    },
+    {
+      "Feuille": "BON_COMMANDE",
+      "Administrateur": "Oui",
+      "Directeur": "Oui",
+      "Comptable": "Non",
+      "Caissier": "Non",
+      "Magasinier": "Oui",
+      "Commercial": "Non",
+      "Consultation": "Oui"
+    },
+    {
+      "Feuille": "REGISTRE_DOCUMENTS",
+      "Administrateur": "Oui",
+      "Directeur": "Oui",
+      "Comptable": "Oui",
+      "Caissier": "Oui",
+      "Magasinier": "Non",
+      "Commercial": "Oui",
+      "Consultation": "Oui"
+    },
+    {
+      "Feuille": "AUDIT",
+      "Administrateur": "Oui",
+      "Directeur": "Oui",
+      "Comptable": "Non",
+      "Caissier": "Non",
+      "Magasinier": "Non",
+      "Commercial": "Non",
+      "Consultation": "Non"
+    },
+    {
+      "Feuille": "SYNTHESE",
+      "Administrateur": "Oui",
+      "Directeur": "Oui",
+      "Comptable": "Oui",
+      "Caissier": "Non",
+      "Magasinier": "Non",
+      "Commercial": "Non",
+      "Consultation": "Oui"
+    }
+  ],
+  "commandes": [
+    {
+      "N°": "CMD-2026-000001",
+      "Date commande": null,
+      "Client": "OUEDRAOGO Robert",
+      "Désignation": null,
+      "Quantité": null,
+      "Montant (FCFA)": null,
+      "Date livraison prévue": null,
+      "Statut": "En attente",
+      "Nombre": 0
+    }
+  ]
+}
